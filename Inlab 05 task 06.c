@@ -15,12 +15,12 @@ int main()
 	
 	
 	if(yr%4==0&&yr%100!=0||yr%400==0){
-		printf("It is a leap year",yr);
+		printf("February has 29 Days");
 	}
 	else{
-		printf("It is not a leap year");
+		printf("February has 28 days.");
 	} 
-	
+	break;
 	case 3: printf("March has 31 days");
 		break;
 		case 4: printf("April has 30 days");
